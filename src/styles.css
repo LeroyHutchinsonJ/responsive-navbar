@@ -12,8 +12,39 @@ body {
 }
 
 .page-wrap {
-  text-align: center;
-
   /* Prevent sidebar from showing a scrollbar on page */
   overflow: auto;
+}
+
+.bm-item {
+  text-decoration: none;
+  color: gray;
+}
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: black;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 2em;
+}
+.bm-morph-shape {
+  fill: #373a47;
 }
