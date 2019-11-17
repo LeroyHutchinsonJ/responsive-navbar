@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+
+  /* Give app full page to work with */
+  height: 100vh;
+  text-align: center;
+}
+
+.page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
