@@ -1,11 +1,12 @@
 html,
 body {
   margin: 0;
+  background-color: black;
 }
 
 .App {
   font-family: sans-serif;
-
+  background-color: brown;
   /* Give app full page to work with */
   height: 100vh;
   text-align: center;
@@ -44,7 +45,4 @@ body {
   background: #373a47;
   padding: 2.5em 1.5em 0;
   font-size: 2em;
-}
-.bm-morph-shape {
-  fill: #373a47;
 }

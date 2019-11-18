@@ -5,11 +5,14 @@ import "./styles.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="outer-container">
       <SideBar />
-      <div className="page-wrap" />
-      <h1>Cool Place Bro</h1>
-      <h2>Best Pizza on the planet</h2>
+      <main id="page-wrap">
+        {" "}
+        <div className="page-wrap" />
+        <h1>Cool Place Bro</h1>
+        <h2>Best Pizza on the planet</h2>
+      </main>
     </div>
   );
 }

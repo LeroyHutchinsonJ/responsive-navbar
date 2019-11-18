@@ -1,9 +1,9 @@
 import React from "react";
-import { slide as Menu } from "react-burger-menu";
+import { scaleRotate as Menu } from "react-burger-menu";
 
 export default props => {
   return (
-    <Menu>
+    <Menu pageWrapId={"page-wrap"} outerContainerId={"outer-container"}>
       <a className="menu-item" href="/">
         Home
       </a>
