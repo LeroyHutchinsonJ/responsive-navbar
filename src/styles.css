@@ -6,15 +6,17 @@ body {
 
 .App {
   font-family: sans-serif;
-  background-color: brown;
+  background-color: #2c3a47;
   /* Give app full page to work with */
   height: 100vh;
   text-align: center;
 }
 
-.page-wrap {
+.main-stuff {
   /* Prevent sidebar from showing a scrollbar on page */
   overflow: auto;
+  background-color: brown;
+  height: 100vh;
 }
 
 .bm-item {

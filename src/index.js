@@ -7,11 +7,12 @@ function App() {
   return (
     <div className="App" id="outer-container">
       <SideBar />
-      <main id="page-wrap">
+      <main id="page-wrap" className="main-stuff">
         {" "}
-        <div className="page-wrap" />
-        <h1>Cool Place Bro</h1>
-        <h2>Best Pizza on the planet</h2>
+        <div>
+          <h1>Cool Place Bro</h1>
+          <h2>Best Pizza on the planet</h2>
+        </div>
       </main>
     </div>
   );
